@@ -1,0 +1,43 @@
+{
+  "name": "my-website",
+  "version": "0.0.1",
+  "description": "My personal website",
+  "main": "./src/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server",
+    "prod": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eXsiLe95/my-website.git"
+  },
+  "keywords": [
+    "HTML",
+    "SCSS",
+    "TypeScript"
+  ],
+  "author": "Lukas Maximilian Kimpel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eXsiLe95/my-website/issues"
+  },
+  "homepage": "https://github.com/eXsiLe95/my-website#readme",
+  "dependencies": {
+    "@types/jquery": "^3.3.3",
+    "jquery": "^3.3.1",
+    "material-design-icons": "^3.0.1",
+    "materialize-css": "^1.0.0-rc.1",
+    "sass": "^1.6.1",
+    "scss-compile": "^0.1.7",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

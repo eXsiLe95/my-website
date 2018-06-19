@@ -51,5 +51,9 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+# Node dependencies
+node_modules
+
 # Compiled javascript code
+dist
 *.js
