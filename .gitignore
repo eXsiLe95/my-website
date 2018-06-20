@@ -57,3 +57,5 @@ node_modules
 # Compiled javascript code
 dist
 *.js
+*.js.map
+*.css.map
