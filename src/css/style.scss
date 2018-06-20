@@ -1,6 +1,4 @@
-@import "../node_modules/materialize-css/sass/materialize";
-
-$whitey: #ffffff;
+@import "../../node_modules/materialize-css/sass/materialize";
 
 $snap: cubic-bezier(1.000, 0.005, 0.240, 1.000);
 $bounce: cubic-bezier(0.175, 0.885, 0.320, 1.275);
@@ -30,9 +28,6 @@ body {
   // essential
   height: 50%; // compensate for higher .content
   overflow-y: auto; // set expected overflow
-
-  // styling
-  padding: 50px 20%;
 }
 
 /* basically all styling from now on */
@@ -185,4 +180,16 @@ h1 {
 }
 body {
   color: color("cyan", "darken-4");
+}
+
+// other stuff
+
+.hero {
+  color: color("shades", "white");
+  background: linear-gradient(50deg, HSLA(205, 62%, 44%, 1), #F62D51);
+  width: 100%;
+  height: 100%;
+  > div {
+    height: 100%;
+  }
 }
